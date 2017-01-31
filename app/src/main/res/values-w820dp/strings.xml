@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">3D Print Costs Calculator</string>
+    <string name="_1_75mm">1.75mm</string>
+    <string name="_3_00mm">3.00mm</string>
+    <string name="abs">ABS</string>
+    <string name="pla">PLA</string>
+    <string name="calculate">calculate</string>
+    <string name="cost_u20ac">cost [€]</string>
+    <string name="cost_per_spool_1kg">cost per spool [1kg]</string>
+    <string name="length_mm">length [mm]</string>
+    <string name="weight_grams">weight [grams]</string>
+</resources>

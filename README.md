@@ -1,4 +1,4 @@
-# 3dPrintCostsCalculator
+# 3d Print Costs Calculator v 0.1
 
 ### Usage:
 

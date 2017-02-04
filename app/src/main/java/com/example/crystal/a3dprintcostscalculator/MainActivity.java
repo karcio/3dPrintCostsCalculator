@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         EditText et2 = (EditText) findViewById(R.id.editText2);
         double length = Double.parseDouble(et2.getText().toString());
+        //TODO : add validation for two edittext
 
         double radius = diameter / 2;
         double PI = 3.14159;

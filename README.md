@@ -5,7 +5,7 @@
 - select material: PLA or ABS
 - select your filaments diameter: 1.75mm or 3.00 mm
 - insert cost of your spool per 1kg
-- insert lenght [mm] calculated by yout slicer software
+- insert length [mm] calculated by your slicer software
 - click "CALCULATE"
 
 ##### Enjoy

@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Locale;
 
@@ -55,11 +56,21 @@ public class MainActivity extends AppCompatActivity {
 
     public void onButtonClicked(View view) {
         EditText et1 = (EditText) findViewById(R.id.editText);
+        String validateA = et1.getText().toString();
+        if (validateA.matches("")) {
+            Toast.makeText(this, "please, insert cost per spool [kg] ", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         double cost = Double.parseDouble(et1.getText().toString());
 
         EditText et2 = (EditText) findViewById(R.id.editText2);
+        String validateB = et2.getText().toString();
+        if (validateB.matches("")) {
+            Toast.makeText(this, "please, insert length [mm] ", Toast.LENGTH_SHORT).show();
+            return;
+        }
         double length = Double.parseDouble(et2.getText().toString());
-        //TODO : add validation for two edittext
 
         double radius = diameter / 2;
         double PI = 3.14159;
